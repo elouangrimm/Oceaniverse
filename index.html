@@ -15,7 +15,8 @@
     <p>
         The oceaniverse has zero tolerance for abuse, hate, and other malicious
         behaviour. If you see something that doesn't belong, please report it to me
-        by emailing <a href="mailto:hello@elouan.xyz" style="--color: var(--email)" target="_blank">hello@elouan.xyz</a> or hitting me up on <a href="https://bsky.app/profile/elouan.xyz" style="--color: var(--bluesky)">Bluesky</a>.
+        by emailing <a href="mailto:hello@elouan.xyz" style="--color: var(--email)" target="_blank">hello@elouan.xyz</a>
+        or hitting me up on <a href="https://bsky.app/profile/elouan.xyz" style="--color: var(--bluesky)">Bluesky</a>.
     </p>
 
     <p>
@@ -46,6 +47,18 @@
 
     img {
         border: 1px solid #ccc;
+        max-width: 100%;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+
+    input[type="password"] {
+        background-color: var(--stone-500);
+        border: 1px solid var(--stone-50);
+        color: var(--stone-50);
+        padding: 5px;
+        width: 100%;
+        font-size: 1em;
     }
 </style>
 
